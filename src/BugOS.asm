@@ -5,7 +5,7 @@
 ;
 ;--------------------------------------------------------------------------------
 
-#include "ti86asm.inc"
+#include "../inc/ti86asm.inc"
 
 _check_basic	equ		$46AB   ; checks for basic program / _check_asm didn't work
 _ldhl_8z		equ		$4343	; Sets 8 bytes starting at the address pointed to by HL to zero. (Asmstudio86)
